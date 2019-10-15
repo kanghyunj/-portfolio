@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+#wrap{}
+body{width:100%;}
+
+h1{width: 340px; margin:90px auto; background-image:url(../images/mainpoo.gif); background-repeat: no-repeat;}
+h1:hover{width: 340px; transition:all 0.3s; background-image:url(../images/main.jpg); background-repeat: no-repeat;}
+h1>a{display: block; height: 125px; text-indent:-9999px;}
+
+
+nav{position:fixed; right:20px; top:50%; transform: translateY(-50%);}
+nav>.gnb{}
+nav>.gnb>li{width: 25px; height: 25px; margin-top:10px; background-image:url(../images/circular.png); background-repeat:no-repeat; background-size:cover;}
+nav>.gnb>li:hover{width: 25px; height: 25px; background-image:url(../images/smiley.png); background-repeat:no-repeat;}
+nav>.gnb>li>a{display: block; text-indent:-9999px;}
+
+
+
+
+/* 컨텐츠 영역 */
+
+section{text-indent:-9999px}
+section>.main{}
+section>.main>div{width:540px; height:250px; margin:0 auto; background-image:url(../photo/112.png); background-size:cover;}
+section>.history{width: 815px; height: 650px; margin:170px auto; background-image:url(../photo/ing.jpg); background-repeat:no-repeat;}
+section>.type{width: 1212px; height: 964px; margin:150px auto; background-image: url(../photo/ing2.jpg);}
+section>.charcter{width: 1070px; height: 780px; margin:100px auto; background-image:url(../photo/ing3.jpg); }
+section>.health{width: 1000px; height: 540px; margin:150px auto; background-image:url(../photo/ing4.jpg);}
+section>.note{width:834px; height: 395px; margin:150px auto 0; background-image: url(../photo/ing5.jpg);}
+footer{width: 755px; height: 510px; margin:50px auto; background-image:url(../photo/ing6.jpg); background-repeat:no-repeat;}
+footer>a{display: block; line-height:510px; font-size:150px; text-align: center; color:#ccc; font-weight: 800; }
+footer>a:hover{ text-align: center; transition:all 0.3s; color:#9ac7f0; }
